@@ -15,3 +15,19 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+  
+}
