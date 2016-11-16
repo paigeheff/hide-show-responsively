@@ -37,12 +37,26 @@ img:nth-child(2), img:nth-child(4) {
 }
 
 @media only screen and (min-width: 38em) {
+  img:nth-child(2), img:nth-child(3), img:nth-child(4) {
+    width: 32%;
+    display: inline-block;
+  }
+
+  img:first-child {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
-  img {
-    display:
+  img:nth-child(2), img:nth-child(3), img:nth-child(4) {
+    display:inline-block;
+    width: 24%;
+}
 
+  img:first-child {
+    display: inline-block;
+    width: 24%;
   }
+
 }
