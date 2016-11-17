@@ -16,6 +16,10 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
+
 img:first-child, img:nth-child(3) {
   width: 100%;
   display: inline-block;
@@ -26,7 +30,12 @@ img:nth-child(2), img:nth-child(4) {
 }
 
 @media only screen and (min-width: 25em) {
-  img:nth-child(2), img:nth-child(4){
+
+  img {
+    width: 100%;
+  }
+
+  img:nth-child(2), img:nth-child(4) {
     display: inline-block;
     width: 49%;
   }
@@ -37,6 +46,11 @@ img:nth-child(2), img:nth-child(4) {
 }
 
 @media only screen and (min-width: 38em) {
+
+  img {
+    width: 100%;
+  }
+
   img:nth-child(2), img:nth-child(3), img:nth-child(4) {
     width: 32%;
     display: inline-block;
@@ -49,17 +63,24 @@ img:nth-child(2), img:nth-child(4) {
 }
 
 @media only screen and (min-width: 60em) {
+
+  img {
+    width: 100%;
+  }
+
   img:nth-child(2), img:nth-child(3), img:nth-child(4) {
-    display:inline-block;
+    display: inline-block;
     width: 24%;
-}
+
+  }
 
   img:first-child {
     display: inline-block;
     width: 24%;
   }
 
-  img {
-    
+  body {
+    text-align: center;
   }
+
 }
